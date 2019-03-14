@@ -1,0 +1,9 @@
+nginx-dev:
+  image: nginx
+  ports:
+    - 8080:80
+
+nginx-prod:
+  image: nginx
+  ports:
+    - 80:80
